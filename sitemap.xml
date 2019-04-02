@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2019/04/02/first-blog/</loc>
+    <loc>http://yoursite.com/2019/04/01/%E4%BD%A0%E5%A5%BD%EF%BC%8Chexo/</loc>
     
-    <lastmod>2019-04-02T07:49:55.015Z</lastmod>
+    <lastmod>2019-04-02T07:56:40.776Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/04/01/%E4%BD%A0%E5%A5%BD%EF%BC%8Chexo/</loc>
+    <loc>http://yoursite.com/2019/04/02/%E6%B2%B3%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B9%9D%E5%B1%8A%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/</loc>
     
-    <lastmod>2019-04-02T07:36:01.122Z</lastmod>
+    <lastmod>2019-04-02T07:56:39.048Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/04/02/first-blog/</loc>
+    
+    <lastmod>2019-04-02T07:49:55.015Z</lastmod>
     
   </url>
   

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-02T07:49:55.015Z</updated>
+  <updated>2019-04-02T07:56:39.048Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>河南理工大学第九届算法竞赛</title>
+    <link href="http://yoursite.com/2019/04/02/%E6%B2%B3%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B9%9D%E5%B1%8A%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/"/>
+    <id>http://yoursite.com/2019/04/02/河南理工大学第九届算法竞赛/</id>
+    <published>2019-04-02T07:55:33.000Z</published>
+    <updated>2019-04-02T07:56:39.048Z</updated>
+    
+    <content type="html"><![CDATA[<p>自己的第一次正规的acm比赛.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;自己的第一次正规的acm比赛.&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="文章" scheme="http://yoursite.com/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>first blog</title>
@@ -45,7 +69,7 @@
     <link href="http://yoursite.com/2019/04/01/%E4%BD%A0%E5%A5%BD%EF%BC%8Chexo/"/>
     <id>http://yoursite.com/2019/04/01/你好，hexo/</id>
     <published>2019-04-01T14:25:17.000Z</published>
-    <updated>2019-04-02T07:36:01.122Z</updated>
+    <updated>2019-04-02T07:56:40.776Z</updated>
     
     <content type="html"><![CDATA[<p><a id="more"></a><br>cd /D/Workspaces/hexo/</p>]]></content>
     
@@ -55,6 +79,8 @@
     
     </summary>
     
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
