@@ -148,6 +148,63 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-代码" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      <center><p></p></center>
+
+
+      
+        <hr>
+<p>#include <iostream></iostream></p>
+<p>#include <map></map></p>
+<p>#include <string></string></p>
+<p>#include <vector><br>using namespace std;<br>typedef long long ll;<br>const int MAX=1e6+7;<br>int main(){<br>    map&lt;string,char&gt;mp;<br>    mp[“0000”]=’0’;<br>    mp[“0001”]=’1’;<br>    mp[“0010”]=’2’;<br>    mp[“0011”]=’3’;<br>    mp[“0100”]=’4’;<br>    mp[“0101”]=’5’;<br>    mp[“0110”]=’6’;<br>    mp[“0111”]=’7’;<br>    mp[“1000”]=’8’;<br>    mp[“1001”]=’9’;<br>    mp[“1010”]=’a’;<br>    mp[“1011”]=’b’;<br>    mp[“1100”]=’c’;<br>    mp[“1101”]=’d’;<br>    mp[“1110”]=’e’;<br>    mp[“1111”]=’f’;<br>    vector<char>arr;<br>    int n;<br>    cin&gt;&gt;n;<br>    for(int ii=0;ii&lt;n;ii++){<br>        string a;<br>        cin&gt;&gt;a;<br>    for(ll i;a.size()&gt;4;){<br>        i=a.size()-4;<br>        string aa=”0000”;<br>        for(ll ii=0;ii&lt;4;ii++){<br>        aa[ii]=a[i];<br>        i++;<br>        }<br>        a.erase(a.end()-4,a.end());<br>        arr.push_back(mp[aa]);<br>    }<br>    if(a.size()==4){<br>        arr.push_back(mp[a]);<br>    }<br>    else if(a.size()==3){<br>        a.insert(a.begin(),’0’);<br>         arr.push_back(mp[a]);<br>    }<br>    else if(a.size()==2){<br>        a.insert(a.begin(),’0’);<br>        a.insert(a.begin(),’0’);<br>         arr.push_back(mp[a]);<br>    }<br>    else if(a.size()==1){<br>        a.insert(a.begin(),’0’);<br>        a.insert(a.begin(),’0’);<br>        a.insert(a.begin(),’0’);<br>         arr.push_back(mp[a]);<br>    }<br>    for(ll i=arr.size()-1;i&gt;=0;i–){<br>        cout&lt;&lt;arr[i];<br>    }<br>    if(ii&lt;n){<br>    cout&lt;&lt;endl;<br>    arr.clear();<br>    }<br>}<br> return 0;</char></vector></p>
+<h2 id><a href="#" class="headerlink" title="}"></a>}</h2>
+      
+
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/04/02/代码/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-河南理工大学第九届算法竞赛" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
