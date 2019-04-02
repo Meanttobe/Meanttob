@@ -215,6 +215,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2019/04/01/你好，hexo/",
+  owner: 'true',
+  repo: 'https://github.com/Meanttobe/Meanttobe.github.io',
+  oauth: {
+    client_id: '2ae6ed6896643d11592e',
+    client_secret: 'fd702c894020cde3447b7f0ed0f4d1e5fe537ad6',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
 
