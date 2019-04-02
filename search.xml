@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>first blog</title>
+      <link href="/2019/04/02/first-blog/"/>
+      <url>/2019/04/02/first-blog/</url>
+      
+        <content type="html"><![CDATA[<p>终于弄好了自己的个人博客<br></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>你好，hexo</title>
       <link href="/2019/04/01/%E4%BD%A0%E5%A5%BD%EF%BC%8Chexo/"/>
       <url>/2019/04/01/%E4%BD%A0%E5%A5%BD%EF%BC%8Chexo/</url>
