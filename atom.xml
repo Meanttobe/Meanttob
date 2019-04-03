@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-02T10:48:22.329Z</updated>
+  <updated>2019-04-03T05:22:50.490Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,21 +21,21 @@
     <link href="http://yoursite.com/2019/04/02/%E6%B2%B3%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B9%9D%E5%B1%8A%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/"/>
     <id>http://yoursite.com/2019/04/02/河南理工大学第九届算法竞赛/</id>
     <published>2019-04-02T07:55:33.000Z</published>
-    <updated>2019-04-02T10:48:22.329Z</updated>
+    <updated>2019-04-03T05:22:50.490Z</updated>
     
-    <content type="html"><![CDATA[<p>自己的第一次正规的acm比赛.</p><p>‘’’</p><pre><code>#include &lt;iostream&gt;#include &lt;map&gt;#include &lt;string&gt;using namespace std;int main(){  int a=29+58+87+11+2;  cout&lt;&lt;a&lt;&lt;endl;  return 0;}</code></pre><p>‘’’</p>]]></content>
+    <content type="html"><![CDATA[<p>自己的第一次正规的acm比赛.</p><p>‘’’ C</p><pre><code>#include &lt;iostream&gt;#include &lt;map&gt;#include &lt;string&gt;using namespace std;int main(){  int a=29+58+87+11+2;  cout&lt;&lt;a&lt;&lt;endl;  return 0;}</code></pre><p>‘’’</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;自己的第一次正规的acm比赛.&lt;/p&gt;
-&lt;p&gt;‘’’&lt;/p&gt;
+&lt;p&gt;‘’’ C&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;
 #include &amp;lt;map&amp;gt;
 #include &amp;lt;string&amp;gt;
 using namespace std;
-int
+i
       
     
     </summary>
@@ -74,9 +74,9 @@ int
     <link href="http://yoursite.com/2019/04/01/%E4%BD%A0%E5%A5%BD%EF%BC%8Chexo/"/>
     <id>http://yoursite.com/2019/04/01/你好，hexo/</id>
     <published>2019-04-01T14:25:17.000Z</published>
-    <updated>2019-04-03T05:19:28.248Z</updated>
+    <updated>2019-04-03T05:23:24.315Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><p><br><br>ma文件的基础使用方法<br><strong>粗体效果</strong></p><p>*斜体效果</p><blockquote><p>引用？*</p></blockquote><p>cd /D/Workspaces/hexo/</p><pre><code>#include &lt;iostream&gt;</code></pre><h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><h2 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h2><h3 id="标题三"><a href="#标题三" class="headerlink" title="标题三"></a>标题三</h3><h4 id="标题四"><a href="#标题四" class="headerlink" title="标题四"></a>标题四</h4><p><a href="http://meanttobe.github.io" title="我的博客" target="_blank" rel="noopener">http://meanttobe.github.io</a></p><hr><p>水平标尺<br><br>时间戳2019/4/3 12:51:06 </p><pre><code class="c"><span class="number">1.</span> <span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span><span class="number">2.</span> <span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></code></pre>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><p><br><br>ma文件的基础使用方法<br><strong>粗体效果</strong></p><p>*斜体效果</p><blockquote><p>引用？*</p></blockquote><p>cd /D/Workspaces/hexo/</p><pre><code>#include &lt;iostream&gt;</code></pre><h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><h2 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h2><h3 id="标题三"><a href="#标题三" class="headerlink" title="标题三"></a>标题三</h3><h4 id="标题四"><a href="#标题四" class="headerlink" title="标题四"></a>标题四</h4><p><a href="http://meanttobe.github.io" title="我的博客" target="_blank" rel="noopener">http://meanttobe.github.io</a></p><hr><p>水平标尺<br><br>时间戳2019/4/3 12:51:06 </p><pre><code class="c"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></code></pre>]]></content>
     
     <summary type="html">
     
