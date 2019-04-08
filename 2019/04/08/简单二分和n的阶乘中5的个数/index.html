@@ -6,15 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019 | meant to be</title>
+  <title>简单二分和n的阶乘中5的个数 | meant to be</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="meant to be">
-<meta property="og:url" content="http://yoursite.com/archives/2019/index.html">
+  <meta name="description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }     return num; }">
+<meta name="keywords" content="文章">
+<meta property="og:type" content="article">
+<meta property="og:title" content="简单二分和n的阶乘中5的个数">
+<meta property="og:url" content="http://yoursite.com/2019/04/08/简单二分和n的阶乘中5的个数/index.html">
 <meta property="og:site_name" content="meant to be">
+<meta property="og:description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }     return num; }">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-04-08T03:12:34.027Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="meant to be">
+<meta name="twitter:title" content="简单二分和n的阶乘中5的个数">
+<meta name="twitter:description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }     return num; }">
   
     <link rel="alternative" href="/atom.xml" title="meant to be" type="application/atom+xml">
   
@@ -146,38 +151,119 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-简单二分和n的阶乘中5的个数" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      简单二分和n的阶乘中5的个数
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
+
+        
+        
+
+<!-- 不蒜子统计 -->
+
+<span id="busuanzi_container_page_pv" style="display:none" class="archive-article-date">
+
+<i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+
+</span>
+
+
 <a href="/2019/04/08/简单二分和n的阶乘中5的个数/" class="archive-article-date">
   	<time datetime="2019-04-08T03:10:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-08</time>
 </a>
 
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/04/08/简单二分和n的阶乘中5的个数/">简单二分和n的阶乘中5的个数</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="n的阶乘中末尾零的个数"><a href="#n的阶乘中末尾零的个数" class="headerlink" title="n的阶乘中末尾零的个数"></a>n的阶乘中末尾零的个数</h3><p>可以理解为n的阶乘5的个数<br>z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&lt;0</p>
+<p>代码如下：</p>
+<pre><code>long long trailingZeros(long long n){
+    long long num;
+    while(n)
+    {
+        num+=n/5;
+        n/=5;
+    }
+    return num;
+}
+</code></pre><p>简单二分：<br>1 2 3 4 5 ..x….n;<br>l                r</p>
+<p>从上述数中找x.</p>
+<pre><code>res=0;
+while(r&gt;l){
+    ll mid=(l+r)/2;
+    if(mid==x){
+        res=mid;
+    }
+    else if(mid&lt;x){
+    left=mid+1;
+    }
+    else{
+    right=mid-1;
+    }
+}
+cout&lt;res&lt;&lt;endl;
+</code></pre><h3 id="例题：D-Trailing-Zeroes-III"><a href="#例题：D-Trailing-Zeroes-III" class="headerlink" title="例题：D - Trailing Zeroes (III)"></a>例题：D - Trailing Zeroes (III)</h3><p>n的阶乘尾部有q个连续的0，现在给你q，请你算出满足条件的n，如果有多个n满足条件，输出最小的那个即可。</p>
+<p><strong>input:</strong>输入一个T(T &lt;= 10000),表示样例数量。<br>每个样例输入一个q。(1 &lt;= q &lt;= 100,000,000)</p>
+<p><strong>output:</strong>对于每个样例，输出满足条件的最小的n，如果没有满足条件的则输出”impossible”。</p>
+<p>代码如下：</p>
+<pre><code>#include &lt;bits/stdc++.h&gt;
+using namespace std;
+typedef long long ll;
+const ll MAX = 1e17 + 7;
+ll ans(ll a) {
+    ll num = 0;
+    while (a) {
+        num += (a / 5);
+        a /= 5;
+    }
+    return num;
+}
+int main() {
+    int n, num = 1;
+    cin &gt;&gt; n;
+    while (n--) {
+    ll a,mid, res = 0, left = 0, right = MAX;
+        cin &gt;&gt; a;
+        while (right &gt; left) {
+            mid = ans((left + right) / 2);
+        if (mid == a) {
+                res = (left + right) / 2;
+                right--;
+            }
+        else if (a &lt; mid) {
+                right = (left + right) / 2 - 1;
+            }
+            else {
+            left = (left + right) / 2 + 1;
+            }
+        }
+    if (res) {
+            cout &lt;&lt; &quot;Case &quot; &lt;&lt; num &lt;&lt; &quot;: &quot; &lt;&lt; res &lt;&lt; endl;
+        }
+        else {
+        cout &lt;&lt; &quot;Case &quot; &lt;&lt; num &lt;&lt; &quot;: impossible&quot; &lt;&lt; endl;
+        }
+        num++;
+    }
+return 0;
+}
+</code></pre>
+      
 
-        <div class="article-info info-on-right">
-          
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -189,139 +275,87 @@
 		</ul>
 	</div>
 
-          
+      
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+
+      
+        
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2019/04/02/第九届河南理工大学算法程序设计大赛/" class="archive-article-date">
-  	<time datetime="2019-04-02T07:55:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-02</time>
-</a>
 
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2019/04/02/第九届河南理工大学算法程序设计大赛/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">第九届河南理工大学算法程序设计大赛</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/04/02/第九届河南理工大学算法程序设计大赛/">第九届河南理工大学算法程序设计大赛</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">文章</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#n的阶乘中末尾零的个数"><span class="toc-number">1.</span> <span class="toc-text">n的阶乘中末尾零的个数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#例题：D-Trailing-Zeroes-III"><span class="toc-number">2.</span> <span class="toc-text">例题：D - Trailing Zeroes (III)</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2019/04/02/first-blog/" class="archive-article-date">
-  	<time datetime="2019-04-02T07:48:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-02</time>
-</a>
+        
+    </div>
+</aside>
 
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/04/02/first-blog/">first blog</a>
-    </h1>
+
+
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2019/04/01/你好，hexo/" class="archive-article-date">
-  	<time datetime="2019-04-01T14:25:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-01</time>
-</a>
-
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/04/01/你好，hexo/">你好，hexo</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+    <section id="comments">
+      <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'flase'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </section>
+  
+
+  
+
 
 
           </div>
@@ -362,8 +396,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
