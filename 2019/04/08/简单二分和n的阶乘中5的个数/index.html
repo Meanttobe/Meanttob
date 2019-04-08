@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>简单二分和n的阶乘中5的个数 | meant to be</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }     return num; }">
+  <meta name="description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }">
 <meta name="keywords" content="文章">
 <meta property="og:type" content="article">
 <meta property="og:title" content="简单二分和n的阶乘中5的个数">
 <meta property="og:url" content="http://yoursite.com/2019/04/08/简单二分和n的阶乘中5的个数/index.html">
 <meta property="og:site_name" content="meant to be">
-<meta property="og:description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }     return num; }">
+<meta property="og:description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-08T03:12:34.027Z">
+<meta property="og:updated_time" content="2019-04-08T03:18:44.262Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="简单二分和n的阶乘中5的个数">
-<meta name="twitter:description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }     return num; }">
+<meta name="twitter:description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }">
   
     <link rel="alternative" href="/atom.xml" title="meant to be" type="application/atom+xml">
   
@@ -192,9 +192,10 @@
         num+=n/5;
         n/=5;
     }
-    return num;
+</code></pre><a id="more"></a>
+<pre><code>    return num;
 }
-</code></pre><p>简单二分：<br>1 2 3 4 5 ..x….n;<br>l                r</p>
+</code></pre><h3 id="简单二分："><a href="#简单二分：" class="headerlink" title="简单二分："></a>简单二分：</h3><p>1 2 3 4 5 ..x….n;<br>l                r</p>
 <p>从上述数中找x.</p>
 <pre><code>res=0;
 while(r&gt;l){
@@ -211,8 +212,8 @@ while(r&gt;l){
 }
 cout&lt;res&lt;&lt;endl;
 </code></pre><h3 id="例题：D-Trailing-Zeroes-III"><a href="#例题：D-Trailing-Zeroes-III" class="headerlink" title="例题：D - Trailing Zeroes (III)"></a>例题：D - Trailing Zeroes (III)</h3><p>n的阶乘尾部有q个连续的0，现在给你q，请你算出满足条件的n，如果有多个n满足条件，输出最小的那个即可。</p>
-<p><strong>input:</strong>输入一个T(T &lt;= 10000),表示样例数量。<br>每个样例输入一个q。(1 &lt;= q &lt;= 100,000,000)</p>
-<p><strong>output:</strong>对于每个样例，输出满足条件的最小的n，如果没有满足条件的则输出”impossible”。</p>
+<p><strong>input: </strong>输入一个T(T &lt;= 10000),表示样例数量。<br>每个样例输入一个q。(1 &lt;= q &lt;= 100,000,000)</p>
+<p><strong>output: </strong>对于每个样例，输出满足条件的最小的n，如果没有满足条件的则输出”impossible”。</p>
 <p>代码如下：</p>
 <pre><code>#include &lt;bits/stdc++.h&gt;
 using namespace std;
@@ -319,7 +320,7 @@ return 0;
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#n的阶乘中末尾零的个数"><span class="toc-number">1.</span> <span class="toc-text">n的阶乘中末尾零的个数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#例题：D-Trailing-Zeroes-III"><span class="toc-number">2.</span> <span class="toc-text">例题：D - Trailing Zeroes (III)</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#n的阶乘中末尾零的个数"><span class="toc-number">1.</span> <span class="toc-text">n的阶乘中末尾零的个数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#简单二分："><span class="toc-number">2.</span> <span class="toc-text">简单二分：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#例题：D-Trailing-Zeroes-III"><span class="toc-number">3.</span> <span class="toc-text">例题：D - Trailing Zeroes (III)</span></a></li></ol>
                     </div>
                 </span>
             </div>
