@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="meant to be">
 <meta property="og:description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-08T03:18:44.262Z">
+<meta property="og:updated_time" content="2019-04-08T03:28:03.200Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="简单二分和n的阶乘中5的个数">
 <meta name="twitter:description" content="n的阶乘中末尾零的个数可以理解为n的阶乘5的个数z=n/5+n/(5^2)+n/(5^3)……直到n/(5^a)&amp;lt;0 代码如下： long long trailingZeros(long long n){     long long num;     while(n)     {         num+=n/5;         n/=5;     }">
@@ -195,7 +195,7 @@
 </code></pre><a id="more"></a>
 <pre><code>    return num;
 }
-</code></pre><h3 id="简单二分："><a href="#简单二分：" class="headerlink" title="简单二分："></a>简单二分：</h3><p>1 2 3 4 5 ..x….n;<br>l                r</p>
+</code></pre><h3 id="简单二分："><a href="#简单二分：" class="headerlink" title="简单二分："></a>简单二分：</h3><p>1 2 3 4 5 ..x….n;<br>l————–&gt; r</p>
 <p>从上述数中找x.</p>
 <pre><code>res=0;
 while(r&gt;l){
